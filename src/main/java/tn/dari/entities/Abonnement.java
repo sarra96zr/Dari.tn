@@ -13,6 +13,9 @@ public class Abonnement implements Serializable {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "id_abonnement")
 	public long id;
+	
+	
+	
 
 	@Column(name = "contrat")
 	public String contrat;
