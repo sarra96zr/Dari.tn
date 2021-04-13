@@ -16,14 +16,11 @@ import tn.dari.service.AnnonceServiceImpl;
 @EntityScan("tn.dari.entities")
 public class Application {
 	
-	@Autowired
-	static AnnonceServiceImpl an;
+	
 	public static void main(String[] args) {
+		
 		SpringApplication.run(Application.class, args);	
-		Annonce a = new Annonce("Maison" , "bardo", "none", "belle maison 300m²", "oui", 300, Type_Annonce.MAISON);
-		an.addAnnonce(a);
-		an.deleteAnnonce("1");
-		//an.retrieveAllAnnonces();
+	
 	
 	}
 
