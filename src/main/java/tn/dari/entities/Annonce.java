@@ -154,10 +154,9 @@ public class Annonce implements Serializable {
 		}
 
 
-		public Annonce(long id, String title, String adresse, String video, String description, String photo,
-				float price, Type_Annonce type_annonce, User user) {
+		public Annonce(String title, String adresse, String video, String description, String photo,
+				float price, Type_Annonce type_annonce) {
 			super();
-			this.id = id;
 			this.title = title;
 			this.adresse = adresse;
 			this.video = video;
@@ -165,7 +164,7 @@ public class Annonce implements Serializable {
 			this.photo = photo;
 			this.price = price;
 			this.type_annonce = type_annonce;
-			this.user = user;
+			//this.id = id;
 		}
 
 

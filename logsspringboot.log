@@ -3841,3 +3841,246 @@ Caused by: java.sql.SQLSyntaxErrorException: La table 'pi-dari.tn.credit' n'exis
 2021-04-13 15:38:12.434  INFO 13168 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
 2021-04-13 15:38:12.632  INFO 13168 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
 2021-04-13 15:38:12.639  INFO 13168 --- [main] tn.dari.spring.Application               : Started Application in 4.791 seconds (JVM running for 5.433)
+2021-04-13 16:13:01.804  INFO 13168 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-04-13 16:13:01.989  INFO 13168 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-13 16:13:01.989  INFO 13168 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-13 16:13:01.991  INFO 13168 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-04-13 16:13:01.999  INFO 13168 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-04-13 16:33:57.176  INFO 8816 --- [main] tn.dari.spring.Application               : Starting Application using Java 1.8.0_144 on DESKTOP-6LQV6AQ with PID 8816 (C:\Users\MSI\Documents\workspace-sts-3.8.4.RELEASE\Pi-Dari.tn\target\classes started by MSI in C:\Users\MSI\Documents\workspace-sts-3.8.4.RELEASE\Pi-Dari.tn)
+2021-04-13 16:33:57.184  INFO 8816 --- [main] tn.dari.spring.Application               : No active profile set, falling back to default profiles: default
+2021-04-13 16:33:57.698  INFO 8816 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-13 16:33:57.711  INFO 8816 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2021-04-13 16:33:58.390  INFO 8816 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-04-13 16:33:58.412  INFO 8816 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-13 16:33:58.412  INFO 8816 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-13 16:33:58.551  INFO 8816 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-13 16:33:58.552  INFO 8816 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1328 ms
+2021-04-13 16:33:58.819  INFO 8816 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-13 16:33:58.871  INFO 8816 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-13 16:33:59.006  INFO 8816 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-13 16:33:59.143  INFO 8816 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-13 16:33:59.327  INFO 8816 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-13 16:33:59.340  INFO 8816 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-04-13 16:33:59.638  WARN 8816 --- [main] org.hibernate.cfg.AnnotationBinder       : HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: tn.dari.entities.Client
+2021-04-13 16:33:59.644  WARN 8816 --- [main] org.hibernate.cfg.AnnotationBinder       : HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: tn.dari.entities.Expert_financier
+2021-04-13 16:34:00.304  INFO 8816 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-13 16:34:00.310  INFO 8816 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-13 16:34:00.316  INFO 8816 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: static tn.dari.service.AnnonceServiceImpl tn.dari.spring.Application.an
+2021-04-13 16:34:00.350  WARN 8816 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-13 16:34:00.464  INFO 8816 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 16:34:00.705  INFO 8816 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-04-13 16:34:00.712  INFO 8816 --- [main] tn.dari.spring.Application               : Started Application in 3.924 seconds (JVM running for 4.269)
+2021-04-13 16:35:28.267  INFO 14404 --- [main] tn.dari.spring.Application               : Starting Application using Java 1.8.0_144 on DESKTOP-6LQV6AQ with PID 14404 (C:\Users\MSI\Documents\workspace-sts-3.8.4.RELEASE\Pi-Dari.tn\target\classes started by MSI in C:\Users\MSI\Documents\workspace-sts-3.8.4.RELEASE\Pi-Dari.tn)
+2021-04-13 16:35:28.269  INFO 14404 --- [main] tn.dari.spring.Application               : No active profile set, falling back to default profiles: default
+2021-04-13 16:35:28.774  INFO 14404 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-13 16:35:28.786  INFO 14404 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2021-04-13 16:35:29.449  INFO 14404 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-04-13 16:35:29.455  INFO 14404 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-13 16:35:29.455  INFO 14404 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-13 16:35:29.525  INFO 14404 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-13 16:35:29.525  INFO 14404 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1207 ms
+2021-04-13 16:35:29.700  INFO 14404 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-13 16:35:29.742  INFO 14404 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-13 16:35:29.876  INFO 14404 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-13 16:35:30.024  INFO 14404 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-13 16:35:30.218  INFO 14404 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-13 16:35:30.231  INFO 14404 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-04-13 16:35:30.412  WARN 14404 --- [main] org.hibernate.cfg.AnnotationBinder       : HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: tn.dari.entities.Client
+2021-04-13 16:35:30.426  WARN 14404 --- [main] org.hibernate.cfg.AnnotationBinder       : HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: tn.dari.entities.Expert_financier
+2021-04-13 16:35:31.082  INFO 14404 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-13 16:35:31.085  INFO 14404 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-13 16:35:31.095  INFO 14404 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: static tn.dari.service.AnnonceServiceImpl tn.dari.spring.Application.an
+2021-04-13 16:35:31.129  WARN 14404 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-13 16:35:31.238  INFO 14404 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 16:35:31.473  INFO 14404 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-04-13 16:35:31.480  INFO 14404 --- [main] tn.dari.spring.Application               : Started Application in 3.625 seconds (JVM running for 3.938)
+2021-04-13 16:36:05.480  INFO 16252 --- [main] tn.dari.spring.Application               : Starting Application using Java 1.8.0_144 on DESKTOP-6LQV6AQ with PID 16252 (C:\Users\MSI\Documents\workspace-sts-3.8.4.RELEASE\Pi-Dari.tn\target\classes started by MSI in C:\Users\MSI\Documents\workspace-sts-3.8.4.RELEASE\Pi-Dari.tn)
+2021-04-13 16:36:05.483  INFO 16252 --- [main] tn.dari.spring.Application               : No active profile set, falling back to default profiles: default
+2021-04-13 16:36:05.988  INFO 16252 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-13 16:36:06.003  INFO 16252 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2021-04-13 16:36:06.676  INFO 16252 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-04-13 16:36:06.676  INFO 16252 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-13 16:36:06.676  INFO 16252 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-13 16:36:06.743  INFO 16252 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-13 16:36:06.743  INFO 16252 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1214 ms
+2021-04-13 16:36:06.917  INFO 16252 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-13 16:36:06.961  INFO 16252 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-13 16:36:07.077  INFO 16252 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-13 16:36:07.216  INFO 16252 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-13 16:36:07.398  INFO 16252 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-13 16:36:07.410  INFO 16252 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-04-13 16:36:07.599  WARN 16252 --- [main] org.hibernate.cfg.AnnotationBinder       : HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: tn.dari.entities.Client
+2021-04-13 16:36:07.610  WARN 16252 --- [main] org.hibernate.cfg.AnnotationBinder       : HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: tn.dari.entities.Expert_financier
+2021-04-13 16:36:08.214  INFO 16252 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-13 16:36:08.221  INFO 16252 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-13 16:36:08.227  INFO 16252 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: static tn.dari.service.AnnonceServiceImpl tn.dari.spring.Application.an
+2021-04-13 16:36:08.259  WARN 16252 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-13 16:36:08.371  INFO 16252 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 16:36:08.610  INFO 16252 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-04-13 16:36:08.619  INFO 16252 --- [main] tn.dari.spring.Application               : Started Application in 3.584 seconds (JVM running for 3.932)
+2021-04-13 16:37:04.344  INFO 15604 --- [main] tn.dari.spring.Application               : Starting Application using Java 1.8.0_144 on DESKTOP-6LQV6AQ with PID 15604 (C:\Users\MSI\Documents\workspace-sts-3.8.4.RELEASE\Pi-Dari.tn\target\classes started by MSI in C:\Users\MSI\Documents\workspace-sts-3.8.4.RELEASE\Pi-Dari.tn)
+2021-04-13 16:37:04.346  INFO 15604 --- [main] tn.dari.spring.Application               : No active profile set, falling back to default profiles: default
+2021-04-13 16:37:04.841  INFO 15604 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-13 16:37:04.853  INFO 15604 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2021-04-13 16:37:05.478  INFO 15604 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-04-13 16:37:05.485  INFO 15604 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-13 16:37:05.485  INFO 15604 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-13 16:37:05.558  INFO 15604 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-13 16:37:05.558  INFO 15604 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1163 ms
+2021-04-13 16:37:05.718  INFO 15604 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-13 16:37:05.770  INFO 15604 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-13 16:37:05.885  INFO 15604 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-13 16:37:06.046  INFO 15604 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-13 16:37:06.270  INFO 15604 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-13 16:37:06.284  INFO 15604 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-04-13 16:37:06.473  WARN 15604 --- [main] org.hibernate.cfg.AnnotationBinder       : HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: tn.dari.entities.Client
+2021-04-13 16:37:06.497  WARN 15604 --- [main] org.hibernate.cfg.AnnotationBinder       : HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: tn.dari.entities.Expert_financier
+2021-04-13 16:37:07.165  INFO 15604 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-13 16:37:07.167  INFO 15604 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-13 16:37:07.177  INFO 15604 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: static tn.dari.service.AnnonceServiceImpl tn.dari.spring.Application.an
+2021-04-13 16:37:07.209  WARN 15604 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-13 16:37:07.318  INFO 15604 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 16:37:07.576  INFO 15604 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-04-13 16:37:07.584  INFO 15604 --- [main] tn.dari.spring.Application               : Started Application in 3.556 seconds (JVM running for 3.925)
+2021-04-13 16:39:19.184  INFO 2172 --- [main] tn.dari.spring.Application               : Starting Application using Java 1.8.0_144 on DESKTOP-6LQV6AQ with PID 2172 (C:\Users\MSI\Documents\workspace-sts-3.8.4.RELEASE\Pi-Dari.tn\target\classes started by MSI in C:\Users\MSI\Documents\workspace-sts-3.8.4.RELEASE\Pi-Dari.tn)
+2021-04-13 16:39:19.186  INFO 2172 --- [main] tn.dari.spring.Application               : No active profile set, falling back to default profiles: default
+2021-04-13 16:39:19.707  INFO 2172 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-13 16:39:19.720  INFO 2172 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2021-04-13 16:39:20.349  INFO 2172 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-04-13 16:39:20.352  INFO 2172 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-13 16:39:20.352  INFO 2172 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-13 16:39:20.439  INFO 2172 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-13 16:39:20.439  INFO 2172 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1204 ms
+2021-04-13 16:39:20.638  INFO 2172 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-13 16:39:20.696  INFO 2172 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-13 16:39:20.839  INFO 2172 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-13 16:39:20.973  INFO 2172 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-13 16:39:21.157  INFO 2172 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-13 16:39:21.172  INFO 2172 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-04-13 16:39:21.344  WARN 2172 --- [main] org.hibernate.cfg.AnnotationBinder       : HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: tn.dari.entities.Client
+2021-04-13 16:39:21.361  WARN 2172 --- [main] org.hibernate.cfg.AnnotationBinder       : HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: tn.dari.entities.Expert_financier
+2021-04-13 16:39:22.011  INFO 2172 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-13 16:39:22.014  INFO 2172 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-13 16:39:22.025  INFO 2172 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: static tn.dari.service.AnnonceServiceImpl tn.dari.spring.Application.an
+2021-04-13 16:39:22.105  WARN 2172 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-13 16:39:22.222  INFO 2172 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 16:39:22.470  INFO 2172 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-04-13 16:39:22.479  INFO 2172 --- [main] tn.dari.spring.Application               : Started Application in 3.628 seconds (JVM running for 3.999)
+2021-04-13 19:59:24.335  WARN 2172 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h17m3s67ms737µs).
+2021-04-13 20:03:51.322  INFO 1508 --- [main] tn.dari.spring.Application               : Starting Application using Java 1.8.0_144 on DESKTOP-6LQV6AQ with PID 1508 (C:\Users\MSI\Documents\workspace-sts-3.8.4.RELEASE\Pi-Dari.tn\target\classes started by MSI in C:\Users\MSI\Documents\workspace-sts-3.8.4.RELEASE\Pi-Dari.tn)
+2021-04-13 20:03:51.322  INFO 1508 --- [main] tn.dari.spring.Application               : No active profile set, falling back to default profiles: default
+2021-04-13 20:03:51.806  INFO 1508 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-13 20:03:51.813  INFO 1508 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2021-04-13 20:03:52.440  INFO 1508 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-04-13 20:03:52.456  INFO 1508 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-13 20:03:52.456  INFO 1508 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-13 20:03:52.518  INFO 1508 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-13 20:03:52.518  INFO 1508 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1149 ms
+2021-04-13 20:03:52.692  INFO 1508 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-13 20:03:52.739  INFO 1508 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-13 20:03:52.865  INFO 1508 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-13 20:03:52.982  INFO 1508 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-13 20:03:53.154  INFO 1508 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-13 20:03:53.169  INFO 1508 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-04-13 20:03:53.341  WARN 1508 --- [main] org.hibernate.cfg.AnnotationBinder       : HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: tn.dari.entities.Client
+2021-04-13 20:03:53.357  WARN 1508 --- [main] org.hibernate.cfg.AnnotationBinder       : HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: tn.dari.entities.Expert_financier
+2021-04-13 20:03:53.938  INFO 1508 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-13 20:03:53.951  INFO 1508 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-13 20:03:53.951  INFO 1508 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: static tn.dari.service.AnnonceServiceImpl tn.dari.spring.Application.an
+2021-04-13 20:03:53.983  WARN 1508 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-13 20:03:54.092  INFO 1508 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 20:03:54.312  INFO 1508 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-04-13 20:03:54.327  INFO 1508 --- [main] tn.dari.spring.Application               : Started Application in 3.303 seconds (JVM running for 3.579)
+2021-04-13 20:06:59.958  INFO 8724 --- [main] tn.dari.spring.Application               : Starting Application using Java 1.8.0_144 on DESKTOP-6LQV6AQ with PID 8724 (C:\Users\MSI\Documents\workspace-sts-3.8.4.RELEASE\Pi-Dari.tn\target\classes started by MSI in C:\Users\MSI\Documents\workspace-sts-3.8.4.RELEASE\Pi-Dari.tn)
+2021-04-13 20:06:59.973  INFO 8724 --- [main] tn.dari.spring.Application               : No active profile set, falling back to default profiles: default
+2021-04-13 20:07:00.465  INFO 8724 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-13 20:07:00.475  INFO 8724 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2021-04-13 20:07:01.104  INFO 8724 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-04-13 20:07:01.120  INFO 8724 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-13 20:07:01.120  INFO 8724 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-13 20:07:01.171  INFO 8724 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-13 20:07:01.171  INFO 8724 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1160 ms
+2021-04-13 20:07:01.360  INFO 8724 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-13 20:07:01.407  INFO 8724 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-13 20:07:01.532  INFO 8724 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-13 20:07:01.655  INFO 8724 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-13 20:07:01.827  INFO 8724 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-13 20:07:01.843  INFO 8724 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-04-13 20:07:02.046  WARN 8724 --- [main] org.hibernate.cfg.AnnotationBinder       : HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: tn.dari.entities.Client
+2021-04-13 20:07:02.063  WARN 8724 --- [main] org.hibernate.cfg.AnnotationBinder       : HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: tn.dari.entities.Expert_financier
+2021-04-13 20:07:02.708  INFO 8724 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-13 20:07:02.715  INFO 8724 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-13 20:07:02.715  INFO 8724 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: static tn.dari.service.AnnonceServiceImpl tn.dari.spring.Application.an
+2021-04-13 20:07:02.746  WARN 8724 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-13 20:07:02.855  INFO 8724 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 20:07:03.074  WARN 8724 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8081 is already in use
+2021-04-13 20:07:03.074  INFO 8724 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-13 20:07:03.074  INFO 8724 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-13 20:07:03.074  INFO 8724 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-04-13 20:07:03.089  INFO 8724 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-04-13 20:07:03.089  INFO 8724 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-04-13 20:07:03.089  INFO 8724 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-13 20:07:03.105 ERROR 8724 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2021-04-13 20:07:12.362  INFO 1092 --- [main] tn.dari.spring.Application               : Starting Application using Java 1.8.0_144 on DESKTOP-6LQV6AQ with PID 1092 (C:\Users\MSI\Documents\workspace-sts-3.8.4.RELEASE\Pi-Dari.tn\target\classes started by MSI in C:\Users\MSI\Documents\workspace-sts-3.8.4.RELEASE\Pi-Dari.tn)
+2021-04-13 20:07:12.362  INFO 1092 --- [main] tn.dari.spring.Application               : No active profile set, falling back to default profiles: default
+2021-04-13 20:07:12.834  INFO 1092 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-13 20:07:12.837  INFO 1092 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2021-04-13 20:07:13.435  INFO 1092 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-04-13 20:07:13.435  INFO 1092 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-13 20:07:13.435  INFO 1092 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-13 20:07:13.496  INFO 1092 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-13 20:07:13.496  INFO 1092 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1087 ms
+2021-04-13 20:07:13.691  INFO 1092 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-13 20:07:13.737  INFO 1092 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-13 20:07:13.862  INFO 1092 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-13 20:07:14.027  INFO 1092 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-13 20:07:14.183  INFO 1092 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-13 20:07:14.199  INFO 1092 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-04-13 20:07:14.357  WARN 1092 --- [main] org.hibernate.cfg.AnnotationBinder       : HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: tn.dari.entities.Client
+2021-04-13 20:07:14.372  WARN 1092 --- [main] org.hibernate.cfg.AnnotationBinder       : HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: tn.dari.entities.Expert_financier
+2021-04-13 20:07:14.951  INFO 1092 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-13 20:07:14.961  INFO 1092 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-13 20:07:14.961  INFO 1092 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: static tn.dari.service.AnnonceServiceImpl tn.dari.spring.Application.an
+2021-04-13 20:07:14.992  WARN 1092 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-13 20:07:15.101  INFO 1092 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 20:07:15.342  INFO 1092 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-04-13 20:07:15.353  INFO 1092 --- [main] tn.dari.spring.Application               : Started Application in 3.267 seconds (JVM running for 3.57)
+2021-04-13 20:11:51.260  INFO 12952 --- [main] tn.dari.spring.Application               : Starting Application using Java 1.8.0_144 on DESKTOP-6LQV6AQ with PID 12952 (C:\Users\MSI\Documents\workspace-sts-3.8.4.RELEASE\Pi-Dari.tn\target\classes started by MSI in C:\Users\MSI\Documents\workspace-sts-3.8.4.RELEASE\Pi-Dari.tn)
+2021-04-13 20:11:51.276  INFO 12952 --- [main] tn.dari.spring.Application               : No active profile set, falling back to default profiles: default
+2021-04-13 20:11:51.731  INFO 12952 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-13 20:11:51.747  INFO 12952 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2021-04-13 20:11:52.327  INFO 12952 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-04-13 20:11:52.342  INFO 12952 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-13 20:11:52.342  INFO 12952 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-13 20:11:52.400  INFO 12952 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-13 20:11:52.400  INFO 12952 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1093 ms
+2021-04-13 20:11:52.589  INFO 12952 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-13 20:11:52.636  INFO 12952 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-13 20:11:52.729  INFO 12952 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-13 20:11:52.854  INFO 12952 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-13 20:11:53.008  INFO 12952 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-13 20:11:53.024  INFO 12952 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-04-13 20:11:53.196  WARN 12952 --- [main] org.hibernate.cfg.AnnotationBinder       : HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: tn.dari.entities.Client
+2021-04-13 20:11:53.196  WARN 12952 --- [main] org.hibernate.cfg.AnnotationBinder       : HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: tn.dari.entities.Expert_financier
+2021-04-13 20:11:53.821  INFO 12952 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-13 20:11:53.836  INFO 12952 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-13 20:11:53.836  INFO 12952 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: static tn.dari.service.AnnonceServiceImpl tn.dari.spring.Application.an
+2021-04-13 20:11:53.867  WARN 12952 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-13 20:11:53.975  INFO 12952 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 20:11:54.178  INFO 12952 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-04-13 20:11:54.178  INFO 12952 --- [main] tn.dari.spring.Application               : Started Application in 3.202 seconds (JVM running for 3.5)

@@ -3,7 +3,7 @@ package tn.dari.service;
 import java.util.List;
 import java.util.Optional;
 
-import tn.esprit.Entity.Annonce;
+import tn.dari.entities.Annonce;
 
 public interface AnnonceService {
 
